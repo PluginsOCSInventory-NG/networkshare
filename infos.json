@@ -1,0 +1,10 @@
+{
+  "displayName" : "Network Share",
+  "author" : ["Valentin DEVILLE"],
+  "contributor" : [],
+  "supportedAgent" : ["Windows"],
+  "description" : {
+    "fr" : "Remonte les lecteurs réseaux",
+    "en" : "Retrieve network share"
+  }
+}
