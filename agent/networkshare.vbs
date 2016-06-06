@@ -3,7 +3,6 @@
 
 Set WshNetwork = WScript.CreateObject("WScript.Network")
 Set oDrives = WshNetwork.EnumNetworkDrives
-Set oPrinters = WshNetwork.EnumPrinterConnections
 
 
 For i = 0 to oDrives.Count - 1 Step 2   
