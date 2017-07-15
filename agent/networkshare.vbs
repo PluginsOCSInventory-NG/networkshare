@@ -1,5 +1,6 @@
 '----------------------------------------------------------
-' Date : Le 14/07/2017' Auteur : PAUTREL Stéphane
+' Date : Le 14/07/2017
+' Auteur : PAUTREL Stéphane
 ' Retrieve network shares
 ' Version : 2.0
 '----------------------------------------------------------
