@@ -1,8 +1,8 @@
 '----------------------------------------------------------
-' Date : Le 14/07/2017
-' Auteur : PAUTREL Stéphane
-' Retrieve network shares
+' Script : Retrieve network shares
 ' Version : 2.0
+' Date : 14/07/2017
+' Autor : PAUTREL Stéphane
 '----------------------------------------------------------
 On Error Resume Next
 
