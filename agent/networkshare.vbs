@@ -2,7 +2,7 @@
 ' Script : Retrieve network shares
 ' Version : 2.0
 ' Date : 14/07/2017
-' Autor : PAUTREL Stéphane
+' Autor : Stéphane PAUTREL
 '----------------------------------------------------------
 On Error Resume Next
 
