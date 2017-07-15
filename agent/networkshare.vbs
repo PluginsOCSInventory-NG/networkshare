@@ -1,6 +1,13 @@
+'----------------------------------------------------------
+' Date : Le 14/07/2017' Auteur : PAUTREL Stéphane
+' Retrieve network shares
+' Version : 2.0
+'----------------------------------------------------------
+On Error Resume Next
+
 strComputer = "."
 Set objWMIService = GetObject("winmgmts:" _
-& "{impersonationLevel=impersonate}!\\" & strComputer & "\root\cimv2")
+    & "{impersonationLevel=impersonate}!\\" & strComputer & "\root\cimv2")
 
 Set colItems = objWMIService.ExecQuery("Select * from Win32_MappedLogicalDisk")
 
