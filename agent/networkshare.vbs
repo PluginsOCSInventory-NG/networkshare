@@ -1,13 +1,13 @@
-'Author: Valentin DEVILLE
+strComputer = "."
+Set objWMIService = GetObject("winmgmts:" _
+& "{impersonationLevel=impersonate}!\\" & strComputer & "\root\cimv2")
 
+Set colItems = objWMIService.ExecQuery("Select * from Win32_MappedLogicalDisk")
 
-Set WshNetwork = WScript.CreateObject("WScript.Network")
-Set oDrives = WshNetwork.EnumNetworkDrives
-
-
-For i = 0 to oDrives.Count - 1 Step 2   
-    Wscript.Echo "<NETWORKSHARE>"
-        Wscript.Echo "<DRIVE>" & oDrives.Item(i) & "</DRIVE>"
-        Wscript.Echo "<PATH>" & oDrives.Item(i+1) & "</PATH>"
-    Wscript.Echo "</NETWORKSHARE>"
+For Each objItem in colItems
+        Wscript.Echo _
+        "<NETWORKSHARE>" & VbCrLf &_
+        "<DRIVE>" & objItem.Name & "</DRIVE>" & VbCrLf &_
+        "<PATH>" & objItem.ProviderName & "</PATH>" & VbCrLf &_
+        "</NETWORKSHARE>"
 Next
