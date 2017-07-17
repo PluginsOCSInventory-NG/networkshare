@@ -2,8 +2,8 @@
 function plugin_version_networkshare()
 {
 return array('name' => 'Network Share',
-'version' => '1.0',
-'author'=> 'Valentin DEVILLE',
+'version' => '2.0',
+'author'=> 'Valentin DEVILLE, Stephane PAUTREL',
 'license' => 'GPLv2',
 'verMinOcs' => '2.2');
 }
@@ -18,6 +18,9 @@ $object -> sql_query("CREATE TABLE IF NOT EXISTS `networkshare` (
                       `HARDWARE_ID` INT(11) NOT NULL,
                       `DRIVE` VARCHAR(255) DEFAULT NULL,
                       `PATH` VARCHAR(255) DEFAULT NULL,
+                      `SIZE` VARCHAR(255) DEFAULT NULL,
+                      `FREESPACE` VARCHAR(255) DEFAULT NULL,
+                      `QUOTAS` VARCHAR(255) DEFAULT NULL,
                       PRIMARY KEY  (`ID`,`HARDWARE_ID`)
                       ) ENGINE=INNODB;");
 
