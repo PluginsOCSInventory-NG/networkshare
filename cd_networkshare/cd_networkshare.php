@@ -2,7 +2,7 @@
 /*
 ====================================================================================
  OCS INVENTORY
- Copyleft Valentin DEVILLE 2016
+ Copyleft Valentin DEVILLE 2016 / Stephane PAUTREL 2017
  Web: http://www.ocsinventory-ng.org
  
  This code is open source and may be copied and modified as long as the source code is always made freely available.
@@ -32,7 +32,10 @@ else{
     echo open_form($form_name);
 	$list_fields = array(
         'Drive' => 'DRIVE',
-        'Path' => 'PATH'
+        'Path' => 'PATH',
+	'Size' => 'SIZE',
+	'Freespace' => 'FREESPACE',
+	'Quotas' => 'QUOTAS'
     );
     $list_col_cant_del=$list_fields;
     $default_fields= $list_fields;
