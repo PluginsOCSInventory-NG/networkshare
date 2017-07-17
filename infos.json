@@ -1,6 +1,6 @@
 {
   "displayName" : "Network Share",
-  "author" : ["Valentin DEVILLE"],
+  "author" : ["Valentin DEVILLE, Stephane PAUTREL"],
   "contributor" : [],
   "supportedAgent" : ["Windows"],
   "description" : {
