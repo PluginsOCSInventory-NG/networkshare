@@ -19,7 +19,7 @@ $DATA_MAP{networkshare} = {
                 PATH => {},
 		SIZE => {},
 		FREESPACE => {},
-		QUOTAS => {}
+		QUOTA => {}
 	}
 };
 1;
