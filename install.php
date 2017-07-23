@@ -30,6 +30,8 @@ function plugin_delete_networkshare()
 {
 $object = new plugins;
 $object -> del_cd_entry("networkshare");
-$object -> sql_query("DROP TABLE `networkshare`");
+$object -> sql_query("DROP TABLE `networkshare`;");
 
 }
+
+?>
