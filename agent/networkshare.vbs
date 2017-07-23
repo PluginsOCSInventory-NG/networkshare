@@ -1,7 +1,7 @@
 '----------------------------------------------------------
 ' Script : Retrieve network shares
 ' Version : 2.0
-' Date : 14/07/2017
+' Date : 23/07/2017
 ' Author : Stéphane PAUTREL
 '----------------------------------------------------------
 On Error Resume Next
@@ -19,6 +19,6 @@ For Each objItem in colItems
         "<PATH>" & objItem.ProviderName & "</PATH>" & VbCrLf &_
         "<SIZE>" & round(objItem.Size/1099511627776,2) & "</SIZE>" & VbCrLf &_
         "<FREESPACE>" & round(objItem.FreeSpace/1099511627776,2) & "</FREESPACE>" & VbCrLf &_
-        "<QUOTAS>" & objItem.SupportsDiskQuotas & "</QUOTAS>" & VbCrLf &_
+        "<QUOTA>" & objItem.SupportsDiskQuotas & "</QUOTA>" & VbCrLf &_
         "</NETWORKSHARE>"
 Next
