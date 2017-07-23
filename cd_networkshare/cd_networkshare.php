@@ -2,8 +2,10 @@
 /*
 ====================================================================================
  OCS INVENTORY
- Copyleft Valentin DEVILLE 2016 / Stephane PAUTREL 2017
+ Copyleft Valentin DEVILLE 2016
  Web: http://www.ocsinventory-ng.org
+ 
+ Copyleft Stéphane PAUTREL 2017
  
  This code is open source and may be copied and modified as long as the source code is always made freely available.
  Please refer to the General Public Licence http://www.gnu.org/ or LiCENSE.MD
@@ -35,7 +37,7 @@ else{
         'Path' => 'PATH',
 	'Size' => 'SIZE',
 	'Freespace' => 'FREESPACE',
-	'Quotas' => 'QUOTAS'
+	'Quota' => 'QUOTA'
     );
     $list_col_cant_del=$list_fields;
     $default_fields= $list_fields;
@@ -52,3 +54,4 @@ else{
         tab_req($list_fields,$default_fields,$list_col_cant_del,$sql['SQL'],$tab_options);
         ob_start();
     }
+?>
