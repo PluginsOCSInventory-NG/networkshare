@@ -20,7 +20,7 @@ $object -> sql_query("CREATE TABLE IF NOT EXISTS `networkshare` (
                       `PATH` VARCHAR(255) DEFAULT NULL,
                       `SIZE` VARCHAR(255) DEFAULT NULL,
                       `FREESPACE` VARCHAR(255) DEFAULT NULL,
-                      `QUOTAS` VARCHAR(255) DEFAULT NULL,
+                      `QUOTA` VARCHAR(255) DEFAULT NULL,
                       PRIMARY KEY  (`ID`,`HARDWARE_ID`)
                       ) ENGINE=INNODB;");
 
