@@ -5,7 +5,7 @@
  Copyleft Valentin DEVILLE 2016
  Web: http://www.ocsinventory-ng.org
  
- Copyleft Stéphane PAUTREL 2017
+ Copyleft Stephane PAUTREL 2017
  
  This code is open source and may be copied and modified as long as the source code is always made freely available.
  Please refer to the General Public Licence http://www.gnu.org/ or LiCENSE.MD
@@ -35,9 +35,9 @@ else{
 	$list_fields = array(
         'Drive' => 'DRIVE',
         'Path' => 'PATH',
-	'Size' => 'SIZE',
-	'Freespace' => 'FREESPACE',
-	'Quota' => 'QUOTA'
+		'Size' => 'SIZE',
+		'Free space' => 'FREESPACE',
+		'Quota' => 'QUOTA'
     );
     $list_col_cant_del=$list_fields;
     $default_fields= $list_fields;
