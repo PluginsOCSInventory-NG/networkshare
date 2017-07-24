@@ -17,9 +17,9 @@ $DATA_MAP{networkshare} = {
 	fields => {
                 DRIVE => {},
                 PATH => {},
-				SIZE => {},
-				FREESPACE => {},
-				QUOTA => {}
+		SIZE => {},
+		FREESPACE => {},
+		QUOTA => {}
 }
 };
 1;
