@@ -35,8 +35,8 @@ else{
 	$list_fields = array(
         'Drive' => 'DRIVE',
         'Path' => 'PATH',
-	'Size' => 'SIZE',
-	'Free space' => 'FREESPACE',
+	'Size (TB)' => 'SIZE',
+	'Free space (TB)' => 'FREESPACE',
 	'Quota' => 'QUOTA'
     );
     $list_col_cant_del=$list_fields;
