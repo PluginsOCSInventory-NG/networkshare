@@ -5,13 +5,14 @@
 ' Date :		23/07/2017
 ' Author :		Stéphane PAUTREL (acb78.com)
 '----------------------------------------------------------
-' OS checked [X] on		32b	64b	(Professionnal edition)
-'	Windows XP		[X]	[ ]
-'	Windows 7		[N]	[N]
-'	Windows 8.1		[N]	[N]
-'	Windows 10		[N]	[N]
+' OS checked [X] on	32b	64b	(Professionnal edition)
+'	Windows XP	[X]	[ ]
+'	Windows Vista	[N]	[N]
+'	Windows 7	[N]	[X]
+'	Windows 8.1	[N]	[X]
+'	Windows 10	[N]	[X]
 ' ---------------------------------------------------------
-' NOTE : No checked on Windows Vista and Windows 8
+' NOTE : No checked on Windows 8
 ' ---------------------------------------------------------
 On Error Resume Next
 
