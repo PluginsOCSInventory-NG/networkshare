@@ -6,11 +6,14 @@
 ' Author :		Stéphane PAUTREL (acb78.com)
 '----------------------------------------------------------
 ' OS checked [X] on	32b	64b	(Professionnal edition)
-'	Windows XP	[X]	[ ]
+'	Windows XP	[X]
 '	Windows Vista	[N]	[N]
 '	Windows 7	[N]	[X]
 '	Windows 8.1	[N]	[X]
 '	Windows 10	[N]	[X]
+'	Windows 2k8R2		[X]
+'	Windows 2k12R2		[N]
+'	Windows 2k16		[N]
 ' ---------------------------------------------------------
 ' NOTE : No checked on Windows 8
 ' ---------------------------------------------------------
