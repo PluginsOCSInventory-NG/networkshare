@@ -1,7 +1,7 @@
 {
   "displayName" : "Network Share",
   "author" : ["Valentin DEVILLE"],
-  "contributor" : [],
+  "contributor" : ["Stephane PAUTREL"],
   "supportedAgent" : ["Windows"],
   "description" : {
     "fr" : "Remonte les lecteurs réseaux",
